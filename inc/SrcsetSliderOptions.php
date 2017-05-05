@@ -21,7 +21,7 @@ class SrcsetSliderOptions {
 	/**
 	 * Load the plugin options from WordPress.
 	 *
-	 * @return SrcsetSliderOptions
+	 * @return SimpleSliderOptions
 	 */
 	public static function load() {
 		$options = get_option( SLIDER_SETTINGS , array() );

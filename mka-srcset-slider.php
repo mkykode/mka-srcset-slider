@@ -15,12 +15,12 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 
-require_once( 'inc/SrcsetSlider.php' );
+require_once( 'inc/SrcsetPostType.php' );
 require_once( 'inc/SrcsetSliderPublic.php' );
 require_once( 'inc/SrcsetSliderAdmin.php' );
 require_once( 'inc/SrcsetSliderOptions.php' );
 require_once( 'inc/SrcsetSliderShortcode.php' );
-require_once( 'inc/SrcsetPostType.php' );
+require_once( 'inc/SrcsetSlider.php' );
 define( 'THEME_NAME', 'schwerdtle' );
 define( 'PLUGIN_VERSION', '1.0.0' );
 define( 'PLUGIN_URL', plugin_dir_url( __FILE__ ) );
