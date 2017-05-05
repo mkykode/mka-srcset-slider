@@ -14,7 +14,7 @@
 // If this file is called directly, abort.
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-
+require_once( 'inc/CheckCDNReadability.php' );
 require_once( 'inc/SrcsetPostType.php' );
 require_once( 'inc/SrcsetSliderPublic.php' );
 require_once( 'inc/SrcsetSliderAdmin.php' );
